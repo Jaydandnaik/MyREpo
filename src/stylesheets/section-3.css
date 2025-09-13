@@ -1,0 +1,381 @@
+.section-3 {
+  width: 100%;
+  height: 185vh;
+  border-top: 1px solid #ffffff;
+  background-color: #191919;
+  position: relative;
+  border-bottom: 1px solid #ffffff;
+  display: flex;
+  align-items: center;
+}
+.bothsection3part {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  height: 165vh;
+  padding: 30px 0;
+}
+.lfttop3 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  height: 100%;
+  gap: 10px;
+  padding: 10px 0;
+}
+.lfttop3 h1 {
+  width: 20vw;
+  font-size: 55px;
+  font-family: font2;
+  color: #ffffff;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.lfttop3 h2 {
+  width: 30vw;
+  font-size: 23px;
+  font-family: font3;
+  color: #ffffff;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.lfttop3 button {
+  width: 180px;
+  height: 38px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: font4;
+  margin-top: 45px;
+  transition: ease-in-out 0.3s;
+}
+.lfttop3 button:hover {
+  scale: 1.1;
+}
+.lfttop3 a {
+  font-weight: 300;
+  font-size: 20px;
+  text-decoration: none;
+  color: #191919;
+}
+
+.a-line {
+  position: absolute;
+  top: 5%;
+  left: 36%;
+  width: 1px;
+  height: 90%;
+  background-color: #999999;
+}
+.biggrid {
+  width: 60%;
+  color: #fdfbf5;
+  /* height: calc(100% + 70%); */
+  overflow: hidden;
+  position: relative;
+  height: 185vh;
+}
+.image-grid {
+  width: 100%;
+  height: 185vh;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+.row {
+  display: flex;
+  gap: 25px;
+}
+.rowdescription {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 37%;
+  font-size: 15px;
+  font-family: font2;
+  color: #fdfbf5;
+}
+.rowdescription h3 {
+  font-family: font4;
+}
+
+/* Images take equal width in row */
+.row img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.row-2 {
+  display: flex;
+  gap: 25px;
+  justify-content: space-between;
+}
+
+.row-2 img {
+  width: 50%;
+  height: 250px;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.row-3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.row-3 img {
+  width: 50%;
+  height: 250px;
+  object-fit: cover;
+  object-position: left;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.rowdescriptionimage2 {
+  width: 48%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 62%;
+  font-family: font2;
+  font-size: 15px;
+  color: #fdfbf5;
+}
+.rowdescriptionimage2 h3 {
+  font-family: font4;
+  font-size: 14px;
+}
+.rowdescriptionimage3 {
+  width: 48%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  right: 0;
+  top: 62%;
+  font-size: 15px;
+  font-family: font2;
+  color: #fdfbf5;
+}
+.rowdescriptionimage3 h3 {
+  font-family: font4;
+  font-size: 14px;
+}
+.rowdescriptionimage4 {
+  width: 48%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 87%;
+  font-size: 15px;
+  font-family: font2;
+  color: #fdfbf5;
+}
+.rowdescriptionimage4 h3 {
+  font-family: font4;
+  font-size: 14px;
+}
+.rowdescriptionimage5 {
+  width: 48%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  right: 0;
+  top: 87%;
+  font-size: 15px;
+  font-family: font2;
+  color: #fdfbf5;
+}
+.rowdescriptionimage5 h3 {
+  font-family: font4;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .section-3 {
+    height: 310vh;
+  }
+  .bothsection3part {
+    margin-bottom: 1350px;
+    position: absolute;
+    flex-direction: column;
+    padding: 0;
+  }
+  .lfttop3 {
+    border-bottom: 1px solid #ccc;
+    height: 15%;
+  }
+  .lfttop3 h1 {
+    width: 100vw;
+    font-size: 45px;
+    gap: 10px;
+  }
+  .lfttop3 h2 {
+    width: 100vw;
+    font-size: 25px;
+  }
+  .lfttop3 button {
+    margin-top: 30px;
+    width: 150px;
+    height: 32px;
+    font-size: 15px;
+  }
+  .a-line {
+    display: none;
+  }
+  .biggrid {
+    position: absolute;
+    width: 100vh;
+    top: 17%;
+    height: 290vh;
+  }
+  .image-grid {
+    height: 250vh;
+  }
+  .row {
+    width: 100%;
+    position: absolute;
+  }
+  
+  .rowdescription {
+    top: 100%;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .row-2 {
+    flex-direction: column;
+    position: absolute;
+    gap: 50px;
+    justify-content: center;
+    width: 100%;
+    top: 20%;
+  }
+  .row-2 img {
+    height: 51vh;
+    width: 100%;
+  }
+  .rowdescriptionimage2 {
+    font-size: 12px;
+    width: 100%;
+    top: 49%;
+  }
+  .rowdescriptionimage3 {
+    font-size: 12px;
+    width: 100%;
+    top: 100%;
+    margin-top: 5px;
+  }
+  .row-3 {
+    flex-direction: column;
+    gap: 53px;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top: 65%;
+  }
+  .row-3 img {
+    width: 100%;
+    height: 51vh;
+  }
+  .rowdescriptionimage4 {
+    font-size: 12px;
+    width: 100%;
+    margin-top: 5px;
+    top: 48%;
+  }
+  .rowdescriptionimage5 {
+    font-size: 12px;
+    width: 100%;
+    top: 100%;
+    margin-top: 3px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-3 {
+    height: 240vh;
+  }
+  .bothsection3part {
+    margin-bottom: 550px;
+  }
+  .lfttop3 {
+    height: 22%;
+  }
+  .lfttop3 h1 {
+    font-size: 35px;
+  }
+  .lfttop3 h2 {
+    font-size: 17px;
+  }
+  .lfttop3 a {
+    font-size: 15px;
+  }
+  .biggrid {
+    top: 24%;
+    height: 230vh;
+
+    /* height: 175vh; */
+  }
+  .image-grid{
+    height: 230vh;
+  }
+  .row img {
+    height: 250px;
+  }
+  .rowdescription {
+    top: 100%;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .row-2 {
+    top: 17%;
+  }
+  .row-2 img{
+    height: 240px;
+  }
+  .rowdescriptionimage2 {
+    font-size: 12px;
+    width: 100%;
+    top: 46%;
+  }
+  .rowdescriptionimage3 {
+    font-size: 12px;
+    width: 100%;
+    top: 100%;
+    margin-top: 5px;
+  }
+  .row-3 {
+    top: 50%;
+  }
+  .row-3 img {
+    height: 240px;
+  }
+  .rowdescriptionimage4 {
+    font-size: 12px;
+    width: 100%;
+    margin-top: 5px;
+    top: 45%;
+  }
+  .rowdescriptionimage5 {
+    font-size: 12px;
+    width: 100%;
+    top: 100%;
+    margin-top: 3px;
+  }
+}

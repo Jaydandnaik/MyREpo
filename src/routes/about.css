@@ -1,0 +1,373 @@
+.about-1 {
+  width: 100%;
+  height: 200vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.bothabout1 {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 85px;
+  padding-top: 30px;
+  border-bottom: 1px solid #ccc;
+}
+.imgabout1 {
+  width: 35%;
+  height: 77vh;
+  border-right: 1px solid #ffffffff;
+  padding: 30px 0px;
+}
+.imgabout1 img {
+  width: 90%;
+  height: 70vh;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 5% 5% 0% 0%;
+}
+.rhtabout1 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  /* gap: 5px; */
+  padding: 50px 0px;
+
+  /* padding-top: 20px;
+    padding-left: 50px; */
+}
+.rhtabout1 h3 {
+  font-size: 15px;
+  font-family: font4;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.rhtabout1 h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: font2;
+}
+.rhtabout1 p {
+  font-size: 20px;
+  font-family: font3;
+}
+.rhtabout1 button {
+  width: 170px;
+  height: 38px;
+  border-radius: 10px;
+  background-color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: font4;
+  transition: ease-in-out 0.3s;
+  margin-top:45px;
+}
+.rhtabout1 button:hover {
+  scale: 1.1;
+}
+.rhtabout1 a {
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #191919;
+}
+.middleabout {
+  width: 100%;
+  height: 50vh;
+}
+.rating {
+  width: 90%;
+  height: 80vh;
+  padding: 70px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.rating h1 {
+  font-size: 40px;
+  font-family: font1;
+  text-transform: uppercase;
+}
+.rating1 {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.rating1 h3 {
+  height: 5vh;
+  width: 75%;
+  font-size: 15px;
+  border-bottom: 3px solid #ffffffff;
+  font-family: font2;
+}
+.rating1 h2 {
+  position: absolute;
+  font-size: 20px;
+  color: #ccc;
+  left: 66%;
+  padding-top: 10px;
+}
+.rating2 {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.rating2 h2 {
+  position: absolute;
+  font-size: 20px;
+  padding-top: 10px;
+  left: 75%;
+  color: #ccc;
+}
+.rating2 h3 {
+  height: 5vh;
+  width: 85%;
+  font-size: 15px;
+  border-bottom: 3px solid #ffffffff;
+  font-family: font2;
+}
+.rating3 {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.rating3 h2 {
+  position: absolute;
+  left: 39%;
+  padding-top: 10px;
+  color: #ccc;
+  font-size: 20px;
+}
+.rating3 h3 {
+  height: 5vh;
+  width: 45%;
+  font-size: 15px;
+  border-bottom: 3px solid #ffffffff;
+  font-family: font2;
+}
+.bottomimageabout {
+  width: 100%;
+  position: absolute;
+  top: 68%;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  height: 70vh;
+}
+.bottomimageabout img {
+  border-radius: 5px;
+  width: 31%;
+  height: 60vh;
+  object-fit: contain;
+}
+.bottomimageabout img:nth-child(3) {
+  width: 30%;
+  height: 57vh;
+  object-fit: cover;
+  object-position: bottom;
+  padding-top: 25px;
+}
+.about-2 {
+  position: relative;
+  width: 100%;
+  height: 170vh;
+}
+.z-line {
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  top: 60%;
+  background-color: #ccc;
+}
+@media (max-width: 768px) {
+  .about-1 {
+    height: 320vh;
+  }
+  .bothabout1 {
+    flex-direction: column;
+    height: auto;
+    border-bottom: none;
+    padding: 25px 0;
+  }
+  .imgabout1 {
+    width: 100%;
+    height: 40vh;
+    border-right: none;
+    padding: 0;
+  }
+  .imgabout1 img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 5% 5% 0% 0%;
+  }
+  .rhtabout1 {
+    position: absolute;
+    top: 21%;
+    width: 100%;
+    padding: 0;
+    border-bottom: 1px solid #ccc;
+    height: 42vh;
+  }
+  .rhtabout1 h1 {
+    font-size: 37px;
+  }
+  .rhtabout1 h3 {
+    font-size: 19px;
+  }
+  .rhtabout1 button {
+    margin-top: 50px;
+  }
+  .middleabout {
+    position: absolute;
+    top: 33%;
+  }
+  .rating {
+    width: 95%;
+  }
+  .rating1 h3 {
+    font-size: 15px;
+    height: 3vh;
+  }
+  .rating2 h3 {
+    height: 3vh;
+    font-size: 15px;
+  }
+  .rating3 h3 {
+    height: 4vh;
+    font-size: 15px;
+    width: 50%;
+  }
+  .rating1 h2 {
+    padding-top: 0;
+    font-size: 15px;
+  }
+  .rating2 h2 {
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  .rating3 h2 {
+    font-size: 15px;
+    padding-top: 10px;
+    left: 43%;
+  }
+  .bottomimageabout {
+    flex-direction: column;
+    gap: 30px;
+    top: 45%;
+  }
+  .bottomimageabout img {
+    width: 100%;
+    height: 62vh;
+    object-fit: cover;
+    padding-top: 0;
+  }
+  .bottomimageabout img:nth-child(3) {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: bottom;
+    padding-top: 0;
+  }
+  .about-2 {
+    height: 167vh;
+  }
+  .z-line {
+    top: 28%;
+  }
+}
+@media (max-width: 480px) {
+  .about-1 {
+    height: 320vh;
+  }
+  .about-2 {
+    height: 246vh;
+  }
+  .bothabout1 {
+    flex-direction: column;
+    height: auto;
+    border-bottom: none;
+  }
+  .imgabout1 {
+    width: 100%;
+    height: 40vh;
+    border-right: none;
+    padding: 0;
+  }
+  .imgabout1 img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 5% 5% 0% 0%;
+  }
+  .rhtabout1 {
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    padding: 0;
+    border-bottom: 1px solid #ccc;
+    height: 108vh;
+  }
+  .rhtabout1 h1 {
+    font-size: 37px;
+  }
+  .rhtabout1 h3 {
+    font-size: 19px;
+  }
+  .rhtabout1 button {
+    margin-top: 50px;
+  }
+  .middleabout {
+    position: relative;
+    top: 33%;
+  }
+  .rating {
+    width: 100%;
+  }
+  .rating1 h3 {
+    font-size: 10px;
+    height: 3vh;
+  }
+  .rating2 h3 {
+    height: 3vh;
+    font-size: 10px;
+  }
+  .rating3 h3 {
+    height: 4vh;
+    font-size: 10px;
+    width: 50%;
+  }
+  .rating1 h2 {
+    padding-top: 0;
+    font-size: 15px;
+  }
+  .rating2 h2 {
+    font-size: 15px;
+    padding-top: 0;
+  }
+  .rating3 h2 {
+    font-size: 15px;
+    padding-top: 8px;
+    left: 43%;
+  }
+  .bottomimageabout {
+    flex-direction: column;
+    gap: 0;
+    top: 61%;
+  }
+  .bottomimageabout img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    padding-top: 0;
+  }
+  .bottomimageabout img:nth-child(3) {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: bottom;
+    padding-top: 0;
+  }
+  .z-line {
+    top: 35%;
+  }
+}

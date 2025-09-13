@@ -1,0 +1,467 @@
+.services-1 {
+  height: 75vh;
+  width: 100%;
+  position: relative;
+}
+.bothsection {
+  width: 100%;
+  height: 87%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 110px;
+  padding: 50px 0;
+  border-bottom: 1px solid #ffffffff;
+}
+.topsection {
+  font-size: 30px;
+  font-family: font2;
+}
+.btnsection {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.btnsection button {
+  width: 135px;
+  height: 35px;
+  font-size: 13px;
+  background-color: #191919;
+  color: #ffffffff;
+  border: 1px solid #ffffffff;
+  border-radius: 5px;
+  transition: ease-in-out 0.3s;
+}
+.btnsection button:hover {
+  background-color: #ffffffff;
+  color: #191919;
+  scale: 1.1;
+}
+/* services2 */
+.services-2 {
+  width: 100%;
+  height: 165vh;
+  position: relative;
+  border-bottom: 1px solid #ffffffff;
+}
+.lftservices2 {
+  width: 35%;
+  height: 97%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-right: 1px solid #ffffffff;
+}
+.icon1 {
+  font-size: 60px;
+}
+.lftservices2 h3:nth-child(2) {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.lftservices2 h3:nth-child(3) {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: font4;
+  margin-top: 35px;
+}
+.lftservices2 button {
+  margin-top: 35px;
+  width: 170px;
+  border-radius: 10px;
+  height: 35px;
+  font-weight: 400;
+}
+.lftservices2 a {
+  font-size: 20px;
+  color: #191919;
+  text-decoration: none;
+  font-family: font4;
+  text-transform: uppercase;
+}
+.rhtservices2 {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  padding-left: 40px;
+  gap: 30px;
+}
+.top2 {
+  font-size: 25px;
+  font-family: font2;
+}
+.middle2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.middle2 p {
+  font-size: 22px;
+  font-family: font3;
+  line-height: 1.5;
+}
+.imageservices2 {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+}
+.imageservices2 img {
+  width: 100%;
+  height: 90%;
+  border-radius: 15px;
+}
+
+/* services-3 */
+.services-3 {
+  width: 100%;
+  height: 165vh;
+  position: relative;
+  border-bottom: 1px solid #ffffffff;
+  padding: 80px 0;
+}
+.lftservices3 {
+  width: 35%;
+  height: 90%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-right: 1px solid #ffffffff;
+}
+.icon1 {
+  font-size: 60px;
+}
+.lftservices3 h3:nth-child(2) {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.lftservices3 h3:nth-child(3) {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: font4;
+  margin-top: 35px;
+}
+.lftservices3 button {
+  margin-top: 35px;
+  width: 170px;
+  border-radius: 10px;
+  height: 35px;
+  font-weight: 400;
+}
+.lftservices3 a {
+  font-size: 20px;
+  color: #191919;
+  text-decoration: none;
+  font-family: font4;
+  text-transform: uppercase;
+}
+.rhtservices3 {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  padding-left: 40px;
+  gap: 30px;
+}
+.top3 {
+  font-size: 25px;
+  font-family: font2;
+}
+.middle3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.middle3 p {
+  font-size: 20px;
+  font-family: font3;
+  line-height: 1.5;
+}
+.imageservices3 {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+}
+.imageservices3 img {
+  width: 100%;
+  height: 76%;
+  border-radius: 15px;
+}
+/* services-4 */
+.services-4 {
+  width: 100%;
+  height: 170vh;
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.z-line {
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  top: 60%;
+  background-color: #ccc;
+}
+.rhtpart6 a {
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .services-1 {
+    height: 53vh;
+  }
+  .bothsection {
+    gap: 35px;
+    height: 50vh;
+  }
+  .services-2 {
+    height: 125vh;
+  }
+
+  .lftservices2 {
+    width: 100%;
+    height: 35vh;
+    border-bottom: 1px solid #ccc;
+    border-right: none;
+  }
+  .lftservices2 h3 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .lftservices2 h3:nth-child(2) {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  .lftservices2 h3:nth-child(3) {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .lftservices2 button {
+    margin-top: 15px;
+  }
+  .rhtservices2 {
+    width: 100%;
+    height: 100vh;
+    padding-left: 0;
+    top: 31%;
+  }
+  .top2 {
+    position: absolute;
+    font-size: 18px;
+    top: 40%;
+  }
+  .middle2 {
+    flex-direction: column;
+    justify-content: start;
+    position: absolute;
+    top: 58%;
+    gap: 5px;
+  }
+  .middle2 p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .imageservices2 {
+    position: absolute;
+    top: 0;
+  }
+  .imageservices2 img {
+    height: 36vh;
+  }
+  .services-3 {
+    height: 130vh;
+  }
+
+  .lftservices3 {
+    width: 100%;
+    height: 38vh;
+    border-bottom: 1px solid #ccc;
+    border-right: none;
+    top: 3%;
+  }
+  .lftservices3 h3 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .lftservices3 h3:nth-child(2) {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  .lftservices3 h3:nth-child(3) {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .lftservices3 button {
+    margin-top: 15px;
+  }
+  .rhtservices3 {
+    width: 100%;
+    height: 100vh;
+    padding-left: 0;
+    top: 35%;
+  }
+  .top3 {
+    position: absolute;
+    font-size: 18px;
+    top: 40%;
+  }
+  .middle3 {
+    flex-direction: column;
+    justify-content: start;
+    position: absolute;
+    top: 58%;
+    gap: 5px;
+  }
+  .middle3 p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .imageservices3 {
+    position: absolute;
+    top: 0;
+  }
+  .imageservices3 img {
+    height: 36vh;
+  }
+  .z-line {
+    top: 27%;
+  }
+  .services-4{
+    height: 167vh;
+  }
+}
+@media (max-width: 480px) {
+  .services-1 {
+    height: 70vh;
+  }
+  .services-2 {
+    height: 208vh;
+  }
+  .services-3 {
+    height: 230vh;
+    padding: 40px 0;
+  }
+  .services-4 {
+    height: 246vh;
+  }
+  .bothsection {
+    padding: 25px 0;
+    gap: 25px;
+    height: 64vh;
+  }
+  .topsection {
+    font-size: 18px;
+  }
+  .lftservices2 {
+    width: 100%;
+    border-right: none;
+    height: 27%;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .lftservices2 h3 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .lftservices2 h3:nth-child(2) {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  .lftservices2 h3:nth-child(3) {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .lftservices2 button {
+    margin-top: 15px;
+  }
+  .rhtservices2 {
+    width: 100%;
+    height: 100%;
+    padding-left: 0;
+    top: 28%;
+  }
+  .top2 {
+    position: absolute;
+    font-size: 18px;
+    top: 14%;
+  }
+  .middle2 {
+    flex-direction: column;
+    justify-content: start;
+    position: absolute;
+    top: 40%;
+    gap: 5px;
+  }
+  .middle2 p {
+    font-size: 19px;
+    line-height: normal;
+  }
+  .imageservices2 img {
+    height: 25vh;
+  }
+
+  .lftservices3 {
+    width: 100%;
+    height: 23%;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+  }
+  .lftservices3 h3 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .lftservices2 h3:nth-child(2) {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  .lftservices3 h3:nth-child(3) {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .lftservices3 button {
+    margin-top: 15px;
+  }
+  .rhtservices3 {
+    width: 100%;
+    height: 100%;
+    padding-left: 0;
+    top: 26%;
+  }
+  .top3 {
+    position: absolute;
+    font-size: 17px;
+    top: 15%;
+  }
+  .middle3 {
+    flex-direction: column;
+    justify-content: start;
+    position: absolute;
+    top: 42%;
+    gap: 5px;
+  }
+  .middle3 p {
+    font-size: 19px;
+    line-height: normal;
+  }
+  .imageservices3 {
+    position: absolute;
+  }
+  .imageservices3 img {
+    height: 30vh;
+  }
+  .z-line {
+    top: 35%;
+  }
+}
